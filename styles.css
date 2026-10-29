@@ -1,0 +1,68 @@
+html, body {
+    margin: 0;
+    min-height: 100%;
+}
+body {
+    background-image: url('asset/Grollo-Belmore-140.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+.nav-bar {
+    padding: 15px 30px;
+    background-color: white;
+   
+}
+
+.nav-bar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+}
+
+.nav-bar ul li {
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.nav-bar ul li a {
+    text-decoration: none;
+    color: #561463;
+    font-size: 16px;
+    padding: 8px 12px;
+    border-radius: 5px
+}
+
+.nav-bar ul li a:hover {
+    background-color: #561463;
+    color: white;
+}
+    
+.welcome {
+    margin-left: 50px;
+    margin-top: 100px;
+    color: white;
+    font-size: 40px;
+}
+
+#description {
+    margin-left: 50px;
+    max-width: 500px;
+    color: white;
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+#button {
+    margin-left: 50px;
+    width: 200px;
+    padding: 12px;
+    background-color: yellow;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
